@@ -1,11 +1,11 @@
 import React from 'react';
 
-const App: React.FC = () => {
+function App(): JSX.Element {
   return (
     <div>
-      <h1>Hello TypeScript!</h1>
+      <h1>TypeScript App</h1>
     </div>
   );
-};
+}
 
 export default App;
